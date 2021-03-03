@@ -1,11 +1,12 @@
 body {
 	background-color : #eee;
+	font-family: "Courier New", monospace;
 }
 
 #main-label {
     padding-top: 100px;
     font-size: 24pt;
-    font-family: monospace;
+	font-family: inherit;
 }
 
 .filler {
@@ -21,8 +22,8 @@ body {
 }
 
 button {
-    font-family: monospace;
-    height: 38px;
+	font-family: inherit;
+    height: 40px;
     padding: 0 30px;
     color: #555;
     font-size: 18px;
